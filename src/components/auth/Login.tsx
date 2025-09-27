@@ -1,7 +1,7 @@
-import React, { useState } from "react";
 import { useMutation } from "@tanstack/react-query";
-import { loginUser, type User } from "../../service/api";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { loginUser } from "../../service/api";
 
 // Define props for Login component
 interface LoginProps {
